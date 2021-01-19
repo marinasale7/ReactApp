@@ -1,0 +1,40 @@
+.navbar
+ {
+   background-color: #fff;
+   overflow: hidden;
+   position: relative;
+   padding: 10px 0;
+   border-bottom: 1px solid #000;
+ }
+ .navbar .logo
+{
+  float: left;
+  width: 50%;
+  font-size: 15px;
+  font-weight: bold;
+ 
+}
+ .navbar .ul-list
+{
+  list-style: none;
+  width: 50%;
+  float: left;
+  padding:0;
+}
+
+.navbar .ul-list .list-item 
+{
+  display: inline-block;
+}
+
+.navbar .ul-list .list-item a  
+{
+  padding: 10px 15px;
+ text-decoration: none;
+ font-weight: bold;
+ color:#222;
+}
+.navbar .ul-list .list-item a:hover
+{
+  color: #eb5424;
+}
